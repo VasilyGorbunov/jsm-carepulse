@@ -11,8 +11,9 @@ import {
     DialogTitle,
     DialogTrigger
 } from "@/components/ui/dialog";
-import AppointmentForm from "@/components/forms/AppointmentForm";
+//import AppointmentForm from "@/components/forms/AppointmentForm";
 import {Appointment} from "@/types/appwrite.types";
+import {AppointmentForm} from "@/components/forms/AppointmentForm";
 
 
 const AppointmentModal = ({type, patientId, userId, appointment} : {

@@ -2,9 +2,9 @@ import React from 'react';
 import Link from "next/link";
 import Image from "next/image";
 import StatCard from "@/components/StatCard";
-import {getRecentAppointmentList} from "@/lib/actions/appointment.actioins";
+import {getRecentAppointmentList} from "@/lib/actions/appointment.actions";
 import {DataTable} from "@/components/DataTable";
-import {columns, Payment} from "@/components/table/columns";
+import {columns} from "@/components/table/columns";
 
 
 
